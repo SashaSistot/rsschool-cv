@@ -48,7 +48,7 @@ const smallestDivisor = (num) => {
 ***
 ## Training
 1. [Moscow Power Engineering Institute](https://mpei.ru/Pages/default.aspx "MPEI")
-2. [On-line courses Stepik](https://stepik.org/course/52164/syllabus "Stepik")
+2. [On-line courses Stepik](https://stepik.org/course/52164/syllabus "Stepik") *(HTML and css basics)*
 3. [The Rolling Scopes «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/) *(Completed the course without gaining the required number of points to obtain a certificate.)*
 
 ### language
