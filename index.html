@@ -4,9 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv Sasha Sistot</title>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link type="image/x-icon" rel="shortcut icon" href="assets/img/ico/Logo sistot.pnd.ico">
 </head>
-<body>
+<body class="body">
+    <header class="container">
+        <nav class="nav">
+            <ul class="menu">
+                <li class="menu-item"><a class="menu-item-link" href="#about-me">about me</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#education">education</a></li>
+                <li class="menu-item"><a class="menu-item-link" href="#qualification">qualification</a>
+                    <ul>
+                        <li class="menu-item"><a class="menu-item-link" href="#skills">skills</a>
+                        <li class="menu-item"><a class="menu-item-link" href="#code">code example</a>
+                        <li class="menu-item"><a class="menu-item-link" href="#work-experience">work experience</a>
+                    </ul>
+                </li>
+                <li class="menu-item"><a class="menu-item-link" href="#language">language</a></li>            
+            </ul>
+        </nav>
+    </header>
+     <main class="container">
+        <section class="section contact">
+            <h2>contact</h2>
+            <ul class="list contacts">
+                <li class="items contacts">+7 (916) 421-77-09</li>
+                <li class="items contacts">E-mail: <a class="contakt-link" href="mailto:sistot.mytishchi@yandex.ru">sistot.mytishchi@yandex.ru</a></li>
+                <li class="items contacts">Telegram: <a class="contakt-link" href="https://web.telegram.org/k/">@_SashaS</a></li>
+                <li class="items contacts">Discord: <a class="contakt-link" href="https://discord.gg/rwrpmc48">Sasha Sistot#0077</a></li>
+            </ul>
+        </section>
+        <section class="section about-me">
+            <div class="heading about-me">
+                <h2 id="about-me">about me</h2>
+            </div>
+            <div class="contant about-me">
+
+            </div>
+            <section class="section education">
+                <div class="heading education">
+                    <h2 id="education">education</h2>
+                </div>
+                <div class="contant education">
+                    <li class="list education"><a class="link education" href="https://mpei.ru/Pages/default.aspx" title="MPEI">Moscow Power Engineering Institute</a></li>
+                    <li class="list education"><a class="link education" href="https://stepik.org/users/439629434" title="stepik">On-line courses Stepik</a></li>   
+                    <li class="list education"><a class="link education" href="" title="rsscool">On-line courses Rsscool</a></li>
+                </div>
+        </section>
+        <section class="qualification">
+            <div class="heading qualification">
+                <h2 id="qualification">qualification</h2>
+            </div>
+            <div class="heading skills">
+                <h3 id="skills">skills</h3>
+            </div>
+            <div class="box skills">
+                <ul class="list skills">
+                    <li class="item skills">basics HTML/CSS</li>
+                    <li class="item skills">basics JavaScript</li>
+                    <li class="item skills">Adobe Photoshop</li>
+                    <li class="item skills">CorelDRAW</li>  
+                </ul>
+            </div>
+            <div class="heading code">
+                <h3 id="code">code example</h3>
+            </div>
+            <div class="contant code">
+                <pre>
+                    <code>
+            const smallestDivisor = (num) => {
+                if (num === 1) {
+                    return 1;
+                    } else {
+                        const iteration = (divider) => {
+                            if(num % divider === 0) {
+                        return divider;
+                        }
+                    return iteration (divider + 1);
+                    };
+                return iteration (2);
+                }
+            };
+                    </code>
+                </pre> 
+            </div>
+            <div class="heading work-experience">
+                <h3 id="work-experience">work experience</h3>
+            </div>
+            <div class="box work-experience">
+                <ul class="list work-experience">
+                    <li class="item work-experience"></li>
+                    <li class="item work-experience"></li> 
+                </ul>
+            </div>
+        </section>
+        <section class="section language">
+            <div class="heading language">
+                <h2 id="language">language</h2>
+            </div>
+            <div class="contant language">
+                <ul class="list language">
+                    <li class="item language">Russian - native</li>
+                    <li class="item language">English - beginner</li>   
+                </ul>
+            </div>
+        </section>  
+
+    </main>
+    <footer class="container">
+        <div class="data">
+            <p>©</p>
+            <p>2022</p>
+        </div>
+        <div class="links-box">
+            <a href=""></a>
+        </div>
+
+    </footer>
     
 </body>
 </html>
