@@ -1,0 +1,12 @@
+* {
+border: 1px solid red;
+}
+
+.body {
+    margin: auto;
+    padding: 0;
+}
+
+.h2 {
+    counter-reset: red;
+}
