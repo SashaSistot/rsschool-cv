@@ -10,7 +10,6 @@
 
 ***
 ## About me
-***I live:***  *Russia*, _Moscow_. I'm ___40 years___ old.
 The ***main purpose*** of my training is to change my profession. I am very attracted to the idea of becoming a **software developer** in the future.  I decided to start with __frontend development__.  I do this because:
 - *It's very interesting to me.*
 - *This will increase the level of my income.*
