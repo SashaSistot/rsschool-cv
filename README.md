@@ -1,1 +1,1 @@
-https://SashaSistot.github.io/rsschool-cv/c
+https://SashaSistot.github.io/rsschool-cv/cv
