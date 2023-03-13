@@ -1,11 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV of Aleksandr Sereda</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="сurriculum vitae of Sasha Sereda">
+  <link rel="stylesheet" href="./style.css">
+  <title>cv Sasha Sereda</title>
 </head>
-<body>   
+<body>
+  <header class="container header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-link" href="#about-me">About me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#qualification">Qualification</a>
+          <ul class="sub-nav">
+            <li class="sub-nav-item"><a class="sub-nav-link" href="#skills">Skills</a></li>
+            <li class="sub-nav-item"><a class="sub-nav-link" href="#code">Code example</a></li>
+            <li class="sub-nav-item"><a class="sub-nav-link" href="#work-experience">Work experience</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#language">Language</a></li>            
+      </ul>
+    </nav>
+    <div class="burger">
+      <span class="line one"></span>
+      <span class="line two"></span>
+      <span class="line three"></span>
+    </div>
+  </header>
+  <div class="container content-box">
+    <aside class="section-contact">
+      <div class="photo">
+        <img class="photo__img" src="./assets/img/122623.png" alt="my photo">
+      </div>
+      <section class="contacts">
+        <h2>Contact</h2>
+        <ul class="list contacts">
+          <li class="items contacts">Phone: <a class="contacts link" href="tel:&nbsp;+79164217709" target="_blank">+7 (916)421-77-09</a></li>
+          <li class="items contacts">Telegram: <a class="contacts link" href="https://web.telegram.org/k/">@_SashaS</a></li>
+          <li class="items contacts">Discord: <a class="contacts link" href="Sasha&nbsp;Sistot#0077" target="_blank">Sasha Sistot#0077</a></li>
+          <li class="items contacts"><a class="contacts link" href="https://www.google.ru/maps/place/%D0%90%D0%BD%D0%B0%D0%B4%D1%8B%D1%80%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80-%D0%B4,+47+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81+2,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+129346/@55.8756559,37.7005753,17.6z/data=!4m5!3m4!1s0x46b5314dd333fb3d:0x4b2c20283bd18a7d!8m2!3d55.8749705!4d37.6985434?hl=ru" target="_blank">Moscow, Russia</a></li>
+        </ul>
+      </section>
+    </aside>
+    <main class="container main">
+      <h1 class="name">Aleksandr Sereda</h1>  
+      <section class="section about-me">
+        <div class="heading about-me">
+          <h2 id="about-me">About me</h2>
+        </div>
+        <div class="contant about-me">
+          <p class="About-me">I live: in Russia, in Moscow. I’m 40 years old.<br>The main purpose of my training is to change my profession. I am very attracted to the idea of becoming a software developer in the future. I decided to start with frontend development.</p>
+          <p class="About-me">I do this because:</p>
+          <ol class="About-me">
+            <li class="About-me" >It’s very interesting to me.</li>
+            <li class="About-me">This will increase the level of my income.</li>
+          </ol>
+          <p class="About-me">There is no practical experience in programming. But there is a desire.</p>   
+        </div>
+      </section>    
+      <section class="section education">
+        <div class="heading education">
+          <h2 id="education">Education</h2>
+        </div>
+        <ul class="contant education">
+          <li class="list education"><a class="link education" href="https://mpei.ru/Pages/default.aspx" title="MPEI">Moscow Power Engineering Institute</a></li>
+          <li class="list education"><a class="link education" href="https://stepik.org/users/439629434" title="stepik">On-line courses Stepik</a></li>   
+          <li class="list education"><a class="link education" href="" title="rsscool">On-line courses Rsscool</a></li>
+        </ul>
+      </section>
+      <section class="qualification">
+        <div class="heading qualification">
+          <h2 id="qualification">Qualification</h2>
+        </div>
+        <div class="heading skills">
+          <h3 id="skills">Skills</h3>
+        </div>
+        <div class="box skills">
+          <ul class="list skills">
+            <li class="item skills">basics HTML/CSS</li>
+            <li class="item skills">basics JavaScript</li>
+            <li class="item skills">Adobe Photoshop</li>
+            <li class="item skills">CorelDRAW</li>  
+          </ul>
+        </div>
+        <div class="heading code">
+          <h3 id="code">Code example</h3>
+        </div>
+        <div class="contant-code">
+          <pre>
+            <code>
+function helloWorld {
+  alert( 'hello World!' );
+}
+            </code>
+          </pre> 
+         </div>
+        <div class="heading work-experience">
+          <h3 id="work-experience">Work experience</h3>
+        </div>
+        <div class="box work-experience">
+          <ul class="list work-experience">
+            <li class="item work-experience">
+              <a class="link work-experience" href="https://sashasistot.github.io/rsschool-portfolio/">Photographer's portfolio</a>
+              <p class="text work-experience">This project was created by me while completing a task on the Course JS/Frontend-development. Preparatory stage 0</p>
+            </li>
+            <li class="item work-experience">
+              <a class="link work-experience" href="#name">This CV</a>
+            </li> 
+          </ul>
+        </div>
+      </section>
+      <section class="section language">
+        <div class="heading language">
+          <h2 id="language">Language</h2>
+        </div>
+        <div class="contant language">
+          <ul class="list language">
+            <li class="item language">Russian - native</li>
+            <li class="item language">English - beginner</li>   
+          </ul>
+        </div>
+      </section>  
+    </main>
+  </div>
+  <footer class="container footer">
+    <div class="data">
+      <p class="data">©</p>
+      <p class="data">2022</p>
+    </div>
+    <ul class="footer-list">
+      <li class="footer-item"><a class="footer-link" href="https://rs.school/" target="_blank" title="RS School-is a free course run by the developer community"><img src="./assets/img/logo-rsschool.png" alt="rs-school"></a></li>
+      <li class="footer-item"><a class="footer-link" href="https://github.com/SashaSistot" target="_blank" title="GitHub: Where the world builds software"><img src="./assets/img/github_PNG40.png" alt="github"></a></li>
+      <li class="footer-item"><a class="footer-link" href="https://discord.com/" target="_blank" title="Discord: A place where any company will feel comfortable"><img src="./assets/img/discord.png" alt="discord"></a></li>
+    </ul>
+  </footer>
+  <script src="./index.js"></script>   
 </body>
 </html>
